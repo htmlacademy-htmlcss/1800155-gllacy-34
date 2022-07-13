@@ -84,6 +84,15 @@ a {
   height: 268px;
 }
 
+.gift-item-raspberry {
+  background-image: url(../images/gift/raspberry-gift.png);
+  background-repeat: no-repeat;
+}
+
+.gift-item-marshmallow {
+  background-image: url(../images/gift/marshmallow-gift.png);
+  background-repeat: no-repeat;
+}
 .gift-title {
   font-weight: 700;
   font-size: 24px;
@@ -140,6 +149,26 @@ a {
   border-radius: 10px;
 }
 
+.advantages-item-icecream {
+  background-image: url(../images/advantages/icecream.svg);
+  background-repeat: no-repeat;
+}
+
+.advantages-item-leaf {
+  background-image: url(../images/advantages/leaf.svg);
+  background-repeat: no-repeat;
+}
+
+.advantages-item-cow {
+  background-image: url(../images/advantages/cow.svg);
+  background-repeat: no-repeat;
+}
+
+.advantages-item-thermometr {
+  background-image: url(../images/advantages/thermometr.svg);
+  background-repeat: no-repeat;
+}
+
 .advantages-title {
   font-weight: 900;
   font-size: 32px;
@@ -150,6 +179,7 @@ a {
 .advantages-description {
   color:  #565C66;
 }
+
 
 .blog {
   width: 570px;
@@ -168,6 +198,7 @@ a {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
+  color:#2D3440;
 }
 
 .newsletter {
@@ -254,6 +285,7 @@ a {
 
 .contacts-address {
   color: #565C66;
+  font-style: normal;
 }
 
 .contacts-address-text,
