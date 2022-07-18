@@ -238,26 +238,26 @@ body {
   fill: #2D3440;
 }
 
-.navigation-link:not(.navigation-link-tel):hover {
+.navigation-link:not(.navigation-link-phone):hover {
   color: #2D3440;
   background-color: rgba(252, 252, 252, 0.5);
   border-radius: 30px;
 }
 
-.navigation-link:not(.navigation-link-tel):focus {
+.navigation-link:not(.navigation-link-phone):focus {
   color: #2D3440;
   background: rgba(252, 252, 252, 0.5);
   border: 2px solid #2D3440;
   border-radius: 30px;
 }
 
-.navigation-link:not(.navigation-link-tel):active {
+.navigation-link:not(.navigation-link-phone):active {
   color: #2D3440;
   background-color: #FCFCFC;
   border-radius: 30px;
 }
 
-.navigation-link:not(.navigation-link-tel):not(navigation-link-cart):current {
+.navigation-link:not(.navigation-link-phone):not(navigation-link-cart):current {
   color: #FCFCFC;
   background-color: #FF4A78;
   border-radius: 30px;
@@ -286,14 +286,14 @@ body {
   min-height: 16px;
 }
 
-.navigation-list-user .navigation-item-tel {
+.navigation-list-user .navigation-item-phone {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   background-color: #FEAFC3;
 }
 
-.navigation-link-tel {
+.navigation-link-phone {
   margin-right: -1px;
   padding: 0;
   padding-top: 1px;
